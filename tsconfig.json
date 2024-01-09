@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "commonJS",
+      "moduleResolution": "Node",
+      "strict": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      // "moduleDetection": "force",
+      // "noEmit": true,
+      // "allowImportingTsExtensions": true,
+     
+    "outDir": "dist"
+    },
+    "include": ["src/**/*", "knexfile.js"]
+  }
+  
