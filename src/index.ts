@@ -1,8 +1,8 @@
-const express = require("express");
 const db = require("./database/db");
-const authRoute = require("./routes/auth");
-const walletRoute = require("./routes/wallet");
-
+//const authRoute = require("./routes/auth");
+import authRoute from "./routes/auth";
+import walletRoute from "./routes/wallet";
+import express from "express";
 const app = express();
 
 app.use(express.json());
